@@ -6,7 +6,7 @@
 <!ENTITY torbutton.context_menu.preferences.key "S">
 <!ENTITY torbutton.context_menu.networksettings "Ustawienia Sieci Tor...">
 <!ENTITY torbutton.context_menu.networksettings.key "N">
-<!ENTITY torbutton.context_menu.downloadUpdate "Sprawdź czy są aktualizacje Tor Browser...">
+<!ENTITY torbutton.context_menu.downloadUpdate "Sprawdź czy są aktualizacje JonDoBrowser...">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "u">
 <!ENTITY torbutton.context_menu.cookieProtections "Ochrona plików cookie...">
 <!ENTITY torbutton.context_menu.cookieProtections.key "c">

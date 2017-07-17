@@ -6,12 +6,12 @@
 <!ENTITY torbutton.context_menu.preferences.key "S">
 <!ENTITY torbutton.context_menu.networksettings "Tor Ağ Ayarları...">
 <!ENTITY torbutton.context_menu.networksettings.key "N">
-<!ENTITY torbutton.context_menu.downloadUpdate "Tor Browser Güncelleme Denetimi...">
+<!ENTITY torbutton.context_menu.downloadUpdate "JonDoBrowser Güncelleme Denetimi...">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "U">
 <!ENTITY torbutton.context_menu.cookieProtections "Çerez Koruması...">
 <!ENTITY torbutton.context_menu.cookieProtections.key "C">
 <!ENTITY torbutton.button.tooltip "Torbutton uygulamasını başlatmak için tıklayın">
-<!ENTITY torbutton.prefs.security_settings "Tor Browser Güvenlik Ayarları">
+<!ENTITY torbutton.prefs.security_settings "JonDoBrowser Güvenlik Ayarları">
 <!ENTITY torbutton.prefs.restore_defaults "Varsayılanlara Sıfırla">
 <!ENTITY torbutton.prefs.custom_warning "Özel tarayıcı tercihleriniz alışılmadık güvenlik ayarları ile sonuçlandı. Güvenlik ve gizlilik nedenleri ile, aşağıdaki varsayılan güvenlik seviyelerinden birini seçmenizi öneriyoruz.">
 <!ENTITY torbutton.cookiedialog.title "Çerez Koruması Yönetimi">
@@ -28,7 +28,7 @@
 <!ENTITY torbutton.prefs.restrict_thirdparty "3. taraf çerez ve diğer iz sürücü bilgiler engellensin">
 <!ENTITY torbutton.prefs.restrict_thirdparty.accesskey "R">
 <!ENTITY torbutton.prefs.restrict_thirdparty_tooltip "Bu seçeneği işaretleyerek, çeşitli web tarayıcıların, web sitelerinde yaptığınız işlemleri izlemesini engelleyebilirsiniz. Değiştirilen özellikler içinde blob İnternet adresleri, yayın kanalları, web tarayıcı ön belleği, çerezler, favicon dosyaları, HTTP Auth başlık bilgileri, ön bağlantı bilgileri, localStorage, mediaSource adresleri, OCSP istekleri, SharedWorkers ve TLS oturumu bulunur.">
-<!ENTITY torbutton.prefs.resist_fingerprinting "Diğer Tor Browser kullanıcılarından sizi ayıran ayrıntılar değiştirilsin">
+<!ENTITY torbutton.prefs.resist_fingerprinting "Diğer JonDoBrowser kullanıcılarından sizi ayıran ayrıntılar değiştirilsin">
 <!ENTITY torbutton.prefs.resist_fingerprinting.accesskey "F">
 <!ENTITY torbutton.prefs.resist_fingerprinting_tooltip "Bu seçeneği işaretleyerek, web sitelerinden pil durumu, bilgisayar performansı, tuş takımı düzeni, yerel ayarlar, yüklü uygulama eklerinin konumu, yüklü uygulama eklerinin listesi, ağ durumunuz, ekran doğrultusu, ekran boyutu, siteye özel yakınlaştırma düzeyi, desteklenen dosya tipleri, sistem renkleri ve WebGL yetenekleri gibi sizin için önemli olabilecek bilgileri gizleyebilirsiniz. ">
 <!ENTITY torbutton.prefs.sec_caption "Güvenlik Düzeyi">

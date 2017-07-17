@@ -6,12 +6,12 @@
 <!ENTITY torbutton.context_menu.preferences.key "S">
 <!ENTITY torbutton.context_menu.networksettings "Torネットワークの設定...">
 <!ENTITY torbutton.context_menu.networksettings.key "N">
-<!ENTITY torbutton.context_menu.downloadUpdate "TorBrowserのアップデートを確認">
+<!ENTITY torbutton.context_menu.downloadUpdate "JonDoBrowserのアップデートを確認">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "U">
 <!ENTITY torbutton.context_menu.cookieProtections "Cookie の防御">
 <!ENTITY torbutton.context_menu.cookieProtections.key "C">
 <!ENTITY torbutton.button.tooltip "Torbuttonを初期状態に戻す">
-<!ENTITY torbutton.prefs.security_settings "Tor Browser セキュリティの設定">
+<!ENTITY torbutton.prefs.security_settings "JonDoBrowser セキュリティの設定">
 <!ENTITY torbutton.prefs.restore_defaults "デフォルトにもどす">
 <!ENTITY torbutton.prefs.custom_warning "あなたのブラウザーにおけるカスタム設定はセキュリティ結果に影響を及ぼしません。セキュリティとプライバシーに関してはデフォルトのセキュリティレベルのひとつを選択することをおすすめいたします。">
 <!ENTITY torbutton.cookiedialog.title "Cookie保護を管理">

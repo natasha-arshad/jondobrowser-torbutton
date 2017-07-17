@@ -240,17 +240,17 @@ function torbutton_init() {
     }
     m_tb_wasinited = true;
 
-    // Determine if we are running inside Tor Browser.
+    // Determine if we are running inside JonDoBrowser.
     var cur_version;
     try {
       cur_version = m_tb_prefs.getCharPref("torbrowser.version");
       m_tb_tbb = true;
-      torbutton_log(3, "This is a Tor Browser");
+      torbutton_log(3, "This is a JonDoBrowser");
     } catch(e) {
-      torbutton_log(3, "This is not a Tor Browser: "+e);
+      torbutton_log(3, "This is not a JonDoBrowser: "+e);
     }
 
-    // If the Tor Browser version has changed since the last time Torbutton
+    // If the JonDoBrowser version has changed since the last time Torbutton
     // was loaded, reset the version check preferences in order to avoid
     // incorrectly reporting that the browser needs to be updated.
     var last_version;
@@ -801,7 +801,7 @@ function torbutton_is_abouttor_doc(aDoc) {
   return (aDoc && /^about:tor$/i.test(aDoc.documentURI.toLowerCase()));
 }
 
-// Bug 1506 P4: Checking for Tor Browser updates is pretty important,
+// Bug 1506 P4: Checking for JonDoBrowser updates is pretty important,
 // probably even as a fallback if we ever do get a working updater.
 function torbutton_do_async_versioncheck() {
   if (!m_tb_tbb || !m_tb_prefs.getBoolPref("extensions.torbutton.versioncheck_enabled")) {
@@ -850,7 +850,7 @@ function torbutton_do_async_versioncheck() {
                 return;
               }
             }
-            torbutton_log(5, "Your Tor Browser is out of date.");
+            torbutton_log(5, "Your JonDoBrowser is out of date.");
             m_tb_prefs.setBoolPref(k_tb_browser_update_needed_pref, true);
             return;
           } catch(e) {
@@ -1182,14 +1182,14 @@ function torbutton_do_new_identity() {
   m_tb_prefs.setIntPref("security.OCSP.enabled", 0);
   m_tb_prefs.setIntPref("security.OCSP.enabled", ocsp);
 
-  // This clears the site permissions on Tor Browser
+  // This clears the site permissions on JonDoBrowser
   // XXX: Tie to some kind of disk-ok pref?
   try {
       Services.perms.removeAll();
   } catch(e) {
       // Actually, this catch does not appear to be needed. Leaving it in for
       // safety though.
-      torbutton_log(3, "Can't clear permissions: Not Tor Browser: "+e);
+      torbutton_log(3, "Can't clear permissions: Not JonDoBrowser: "+e);
   }
 
    // Clear site security settings
@@ -1651,7 +1651,7 @@ function torbutton_tor_check_ok()
 }
 
 // Bug 1506 P5: Despite the name, this is the way we disable
-// plugins for Tor Browser, too.
+// plugins for JonDoBrowser, too.
 //
 // toggles plugins: true for disabled, false for enabled
 function torbutton_toggle_plugins(disable_plugins) {
@@ -2445,7 +2445,7 @@ function torbutton_show_torbrowser_manual() {
 }
 
 // Makes sure the item in the Help Menu and the link in about:tor
-// for the Tor Browser User Manual are only visible when
+// for the JonDoBrowser User Manual are only visible when
 // torbutton_show_torbrowser_manual() returns true.
 function torbutton_init_user_manual_links() {
   let menuitem = document.getElementById("torBrowserUserManual");

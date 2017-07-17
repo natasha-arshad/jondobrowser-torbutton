@@ -340,7 +340,7 @@ MUST NOT bypass Tor proxy settings for any content.</para></listitem>
  <para>Pages MUST NOT perform any network activity in a Tor state different
  from the state they were originally loaded in.</para>
  <para>Note that this requirement is
-being de-emphasized due to the coming shift to supporting only the Tor Browser
+being de-emphasized due to the coming shift to supporting only the JonDoBrowser
 Bundles, which do not support a Toggle operation.</para></listitem>
  <listitem id="undiscoverability"><command>Tor Undiscoverability</command><para>With
 the advent of bridge support in Tor 0.2.0.x, there are now a class of Tor
@@ -349,7 +349,7 @@ are using Tor. This should extend to the browser as well - Torbutton MUST NOT
 reveal its presence while Tor is disabled.
 </para>
  <para>Note that this requirement is
-being de-emphasized due to the coming shift to supporting only the Tor Browser
+being de-emphasized due to the coming shift to supporting only the JonDoBrowser
 Bundles, which do not support a Toggle operation.</para>
 </listitem>
  <listitem id="disk"><command>Disk Avoidance</command><para>The browser SHOULD NOT write any Tor-related state to disk, or store it
@@ -2158,11 +2158,11 @@ linkend="state">State
 Separation</link> and <link linkend="isolation">Network Isolation</link> requirements
 associated with the Toggle Model.
   </para>
-  <sect2 id="TorBrowserBugs">
-   <title>Tor Browser Bugs</title>
+  <sect2 id="JonDoBrowserBugs">
+   <title>JonDoBrowser Bugs</title>
    <para>
 The list of Firefox patches we must create to improve privacy on the
-Tor Browser Bundle are collected in the Tor Bug Tracker under <ulink
+JonDoBrowser Bundle are collected in the Tor Bug Tracker under <ulink
 url="https://trac.torproject.org/projects/tor/ticket/2871">ticket
 #2871</ulink>. These bugs are also applicable to the Toggle Model, and
 should be considered higher priority than all Toggle Model specific bugs
@@ -2172,10 +2172,10 @@ below.
   <sect2 id="ToggleModelBugs">
    <title>Toggle Model Bugs</title>
    <para>
-In addition to the Tor Browser bugs, the Torbutton Toggle Model suffers from
+In addition to the JonDoBrowser bugs, the Torbutton Toggle Model suffers from
 additional bugs specific to the need to isolate state across the toggle.
 Toggle model bugs are considered a lower priority than the bugs against the
-Tor Browser model.
+JonDoBrowser model.
    </para>
   <sect3 id="FirefoxSecurity">
    <title>Bugs impacting security</title>
@@ -2281,7 +2281,7 @@ already been compromised. This obviously needs to be fixed.
      </para>
      </listitem>
 <!--
-This is under the Tor Browser model.
+This is under the JonDoBrowser model.
      <listitem><ulink
 url="https://bugzilla.mozilla.org/show_bug.cgi?id=575230">Bug 575230 - Provide option to
 reduce precision of Date()</ulink>

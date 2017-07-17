@@ -47,9 +47,9 @@ function StartupObserver() {
     try {
       var test = this._prefs.getCharPref("torbrowser.version");
       this.is_tbb = true;
-      this.logger.log(3, "This is a Tor Browser's XPCOM");
+      this.logger.log(3, "This is a JonDoBrowser's XPCOM");
     } catch(e) {
-      this.logger.log(3, "This is not a Tor Browser's XPCOM");
+      this.logger.log(3, "This is not a JonDoBrowser's XPCOM");
     }
 
     try {

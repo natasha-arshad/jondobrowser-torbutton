@@ -6,7 +6,7 @@
 <!ENTITY torbutton.context_menu.preferences.key "S">
 <!ENTITY torbutton.context_menu.networksettings "Tor 网络设置…">
 <!ENTITY torbutton.context_menu.networksettings.key "N">
-<!ENTITY torbutton.context_menu.downloadUpdate "Tor Browser 检查更新…">
+<!ENTITY torbutton.context_menu.downloadUpdate "JonDoBrowser 检查更新…">
 <!ENTITY torbutton.context_menu.downloadUpdate.key "U">
 <!ENTITY torbutton.context_menu.cookieProtections "Cookie 保护…">
 <!ENTITY torbutton.context_menu.cookieProtections.key "C">

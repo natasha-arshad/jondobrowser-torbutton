@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # This var comes from the TBB locale list.
-# XXX: Find some way to keep this, tor-launcher, and Tor Browser in sync
+# XXX: Find some way to keep this, tor-launcher, and JonDoBrowser in sync
 BUNDLE_LOCALES="ar de es fa fr it ko nl pl pt-BR ru tr vi zh-CN"
 
 # XXX: Basque (eu) by request in #10687.
