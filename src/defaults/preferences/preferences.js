@@ -13,8 +13,8 @@ pref("extensions.torbutton.test_enabled",true);
 pref("extensions.torbutton.test_url","https://check.torproject.org/?TorButton=true");
 pref("extensions.torbutton.test_url_interactive", "https://check.torproject.org/?lang=__LANG__");
 pref("extensions.torbutton.local_tor_check",true);
-pref("extensions.torbutton.versioncheck_url","https://www.torproject.org/projects/torbrowser/RecommendedTBBVersions");
-pref("extensions.torbutton.versioncheck_enabled",true);
+pref("extensions.torbutton.versioncheck_url","https://jondobrowser.jondos.de/blog/RecommendedVersions");
+pref("extensions.torbutton.versioncheck_enabled",false);
 pref("extensions.torbutton.use_nontor_proxy",false);
 
 // State prefs:
